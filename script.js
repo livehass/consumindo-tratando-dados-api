@@ -1,3 +1,3 @@
-var consultacep = fetch('https://viacep.com.br/ws/01001000/json/');
+var consultaCep = fetch('https://viacep.com.br/ws/01001000/json/');
 
-console.log(consultacep)
+console.log(consultaCep)
