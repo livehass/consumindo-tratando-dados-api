@@ -6,14 +6,15 @@ async function buscaEndereco(cep){
             throw Error('Cep não existente!');
         }
         var cidade = document.getElementById('cidade');
-        var logradouro = document.getElementById('endereco');
-        var estado = document.getElementById('estado');
-
         cidade.value = consultaCepConvertida.localidade;
+
+        var logradouro = document.getElementById('endereco');
         logradouro.value = consultaCepConvertida.logradouro;
+
+        var estado = document.getElementById('estado');
         estado.value = consultaCepConvertida.localidade;
 
-        
+
         console.log(consultaCepConvertida);
         return consultaCepConvertida;
     } catch (erro) {
