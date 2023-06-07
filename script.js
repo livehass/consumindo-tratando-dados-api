@@ -6,6 +6,7 @@ async function buscaEndereco(cep){
             throw Error('Cep não existente!');
         }
         var cidade = document.getElementById('cidade');
+        var logradouro = document.getElementById('endereco');
         console.log(consultaCepConvertida);
         return consultaCepConvertida;
     } catch (erro) {
