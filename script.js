@@ -17,6 +17,7 @@ async function buscaEndereco(cep){
         var bairro = document.getElementById('bairro');
         bairro.value = consultaCepConvertida.bairro;
 
+
         console.log(consultaCepConvertida);
         return consultaCepConvertida;
     } catch (erro) {
