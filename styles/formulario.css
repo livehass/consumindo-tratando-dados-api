@@ -4,6 +4,7 @@
 }
 
 .principal__titulo {
+    margin-top: 0;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
