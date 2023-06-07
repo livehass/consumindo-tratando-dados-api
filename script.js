@@ -12,6 +12,8 @@ async function buscaEndereco(cep){
         cidade.value = consultaCepConvertida.localidade;
         logradouro.value = consultaCepConvertida.logradouro;
         estado.value = consultaCepConvertida.localidade;
+
+        
         console.log(consultaCepConvertida);
         return consultaCepConvertida;
     } catch (erro) {
