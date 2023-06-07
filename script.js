@@ -11,7 +11,8 @@ async function buscaEndereco(cep){
         console.log(erro)   
     }        
 }
-// 
+var cep = document.getElementById('cep');
+cep.addEventListener("focusout", ()=> buscaEndereco(cep.value));
 
 
 buscaEndereco();
